@@ -1,0 +1,26 @@
+******STREAM*****
+
+java.util.Stream.
+
+Stream is used to process object from collections
+
+*****filter*****
+List<Integer> l1 = l.stream().filter(i->i%2==0).collect(Collectors.toList());
+
+Use a predicate lambda expression
+
+*****map*****:
+List<Integer> l1=l.stream().map(i->i*2).collect(Collectors.toList());
+
+Use a function lambda expression
+
+*****STREAM METHODS*****
+
+collect
+count
+sorted
+min
+man
+filter
+map
+forEach
